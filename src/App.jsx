@@ -1,5 +1,6 @@
 
 import Producto from "./Producto"
+import Anuncio from "./Anuncio"
 function App() {
 
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Producto oferta={true}/>
     <Producto oferta={false}/>
+    <Anuncio/>
     </>
   )
 }
